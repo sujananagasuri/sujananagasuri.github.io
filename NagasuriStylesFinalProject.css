@@ -1,0 +1,693 @@
+
+.container-lg {
+    margin-top: 12px; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #7A94EF;
+}
+
+.nav-item.active {
+    color:pink;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text1 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: lowercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.heroImage {
+    max-width: 50%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+    .heroImage {
+    max-width: 90%;
+    }
+}
+
+.text2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-transform: lowercase;
+}
+
+.text3 {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.text4 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.text5 {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.text6 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text7 {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.text8 {
+    color: #969696;
+    text-align: left;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.aboutHeadingText {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.aboutBodyText {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.footerText {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.footerLinks {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card1 {
+    border-radius: 5px;
+    background: linear-gradient(124deg, #0096D6 0%, #F9FAFF 100%);
+    border: none;
+    width: 100%;
+}
+
+.card2 {
+    border-radius: 5px;
+    background: var(--sdtef, linear-gradient(123deg, rgba(195, 39, 46, 0.41) 1.79%, rgba(129, 28, 37, 0.21) 100%));
+    border: none;
+    width: 100%;
+}
+
+
+.card3 {
+    border-radius: 5px;
+    background: var(--wifire, linear-gradient(124deg, #FF8D4E 0%, rgba(255, 237, 73, 0.10) 100%));    border: none;
+    width: 100%;
+}
+
+.card4 {
+    border-radius: 5px;
+    background: linear-gradient(178deg, #16406A 0%, #617F9B 100%);  border:none;
+    width: 100%;
+}
+
+
+
+.card-img-top {
+    width: 19rem;
+}
+
+.card-img-tops {
+    height: 24rem;
+    width: 24rem;
+}
+
+.cards {
+    height: 20rem;
+}
+
+
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(45deg, #7A94EF, #ECF1FF);
+    border-radius: 50%;
+    margin: 0 5px; 
+}
+
+
+.colored-text {
+    color: #7A94EF;
+}
+
+.striked-text {
+    text-decoration: line-through; 
+    color: black;
+}
+
+.hand-text {
+    color: #FF64AD;
+    text-align: center;
+    font-family: 'Patrick Hand';
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+}
+
+.padding {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.padding2 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+.aboutImg {
+    max-width: 85%;
+    padding: 0px 0px 60px 0px;
+}
+
+.aboutImgs {
+    max-width: 85%;
+}
+
+
+.addingSpace {
+    padding: 60px 0px 60px 0px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #7A94EF;
+}
+
+
+.hp {
+    background: linear-gradient(124deg, #0096D6 0%, #F9FAFF 100%);;
+}
+
+
+.sdtef {
+    background: var(--sdtef, linear-gradient(123deg, rgba(195, 39, 46, 0.41) 1.79%, rgba(129, 28, 37, 0.21) 100%));
+}
+
+.wifire {
+    background: var(--wifire, linear-gradient(124deg, #FF8D4E 0%, rgba(255, 237, 73, 0.10) 100%));
+}
+
+.uspto {
+    background: var(--uspto, linear-gradient(123deg, rgba(21, 64, 106, 0.41) 1.66%, rgba(251, 255, 255, 0.41) 100%));}
+
+
+.case-title-text {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin-top: 15px;
+}
+
+.orange {
+    color: #FF9352;
+}
+
+.case-subtitle-text {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin-top: 15px;
+}
+
+.hp-top-boxes {
+    background-color: #ECF7FC;
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 0px;
+}
+
+.hp-boxes {
+    background-color: #ECF7FC;
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 10px;
+}
+
+.sdtef-top-boxes {
+    background-color: #E4CED0;
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 0px;
+}
+
+.sdtef-boxes {
+    background-color: #E4CED0;
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 10px;
+}
+
+.wifire-top-boxes {
+    background-color: rgba(255, 212, 147, 0.60);
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 0px;
+}
+
+.wifire-boxes {
+    background-color: rgba(255, 212, 147, 0.60);
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 10px;
+}
+
+.uspto-top-boxes {
+    background-color: #D7E0E6;
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 0px;
+}
+
+.uspto-boxes {
+    background-color: #D7E0E6;
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 10px;
+}
+
+.hp-impact-boxes {
+    background-color: #E9E9E9;
+    border-radius: 12px;
+    padding: 20px 20px .5px 30px;
+    margin-top: 10px;
+}
+
+.hp-takeaway-boxes {
+    background-color: #ECF7FC;
+    border-radius: 12px;
+    padding: 20px 20px .5px 30px;
+    margin-top: 10px;
+}
+
+.uspto-takeaway-boxes {
+    background-color: #D7E0E6;
+    border-radius: 12px;
+    padding: 20px 20px .5px 30px;
+    margin-top: 10px;
+}
+
+.wifire-research-boxes {
+    background-color: #FFE5BE;
+    border-radius: 12px;
+    padding: 20px 20px .5px 30px;
+    margin-top: 10px;
+}
+
+.body-text {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.caption-text {
+    color: grey;
+    text-align: center;
+    font-family: Inter;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.hp-blue {
+    color: #0498D7;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.uspto-blue {
+    color: #224B73;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.bold-text {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.bold-orange-text {
+    color: #FFB081;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.bold-upsto-text {
+    color: #224B73;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.problem-statement-text {
+    color: #969696;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+@media (max-width: 1007px) {
+    .problem-statement-text{
+    margin-left:20px;
+    margin-right:20px;
+    }
+}
+
+.hp-blue-problem-statement {
+    color: #57BAE4;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.extra-title-text {
+    color: #969696;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin-top: 15px;
+
+}
+
+.space {
+    margin-bottom: 20px;
+}
+
+.small {
+    max-width: 98%;
+}
+
+@media (max-width: 1007px) {
+    .space {
+    max-width: 90%;
+    }
+}
+
+.space2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.space3 {
+    padding: 120px 100px 120px 100px;
+}
+
+
+.form-color {
+    color: #008372;
+    font-weight: 600;
+}
+
+.power-color {
+    color: #277FFF;
+    font-weight: 600;
+}
+
+.excel-color {
+    color: #217346;
+    font-weight: 600;
+}
+
+.user-color {
+    color: #969696;
+    font-weight: 600;
+}
+
+.process-text {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.number-process {
+    color: #57BAE4;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.number-process-uspto {
+    color: #224B73;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.graphic1 {
+    width: 90%;
+    padding-top: 25%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+}
+
+
+.process-body {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+    border-radius: 3px;
+    background: #ECF7FC;
+    display: inline-flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.process-body-uspto {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+    border-radius: 3px;
+    background: #D7E0E6;
+    display: inline-flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.process-body-g {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+    border-radius: 3px;
+    background: #ECEBEB;
+    display: inline-flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
