@@ -324,6 +324,30 @@ a:hover {
     margin-top: 15px;
 }
 
+.case-sub-title-text {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin-top: 15px;
+}
+
+.sdtef-case-title-text {
+    color: #811C25;
+    text-align: left;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin-top: 50px;
+}
+
 .orange {
     color: #FF9352;
 }
@@ -363,6 +387,13 @@ a:hover {
 
 .sdtef-boxes {
     background-color: #E4CED0;
+    border-radius: 12px;
+    padding: 20px 0px .5px 30px;
+    margin-top: 10px;
+}
+
+.sdtef-boxes-g {
+    background-color: #E9E9E9;
     border-radius: 12px;
     padding: 20px 0px .5px 30px;
     margin-top: 10px;
@@ -566,6 +597,16 @@ a:hover {
 
 .space3 {
     padding: 120px 100px 120px 100px;
+}
+
+.space4 {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+.space5 {
+    height: 40%;
+    margin-bottom: 20px;
 }
 
 
